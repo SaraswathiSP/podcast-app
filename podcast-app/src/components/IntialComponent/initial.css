@@ -1,0 +1,65 @@
+/* src/InitialComponent.css */
+.initial-container {
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+
+.header-left .logo {
+  height: 40px;
+}
+
+.header-right .icon {
+  margin-left: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.back-to-home {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: 1px solid #7e22ce;
+  border-radius: 20px;
+  width: 190px;
+  justify-content: center;
+  padding: 8px;
+  margin-left: 100px;
+}
+
+.home-icon {
+  margin-right: 10px;
+}
+
+.content {
+  margin: 10px;
+}
+
+.content h1 {
+  color: #7e22ce;
+  font-size: 40px;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px 0;
+}
+
+.create-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #211935;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}

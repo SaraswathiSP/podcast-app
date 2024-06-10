@@ -1,0 +1,64 @@
+/* ProjectListing.css */
+.project-list-container {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 90px;
+}
+
+.project-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.project-heading-container h1 {
+  color: #7e22ce;
+}
+
+.create-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  background: #211935;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 200px;
+}
+
+.project-list {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.project-item {
+  background-color: #f0f0f0;
+  display: flex;
+  border: 1px solid #7e22ce;
+  margin: 12px;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  min-width: 100px;
+  text-align: left;
+}
+
+.project-icon-container {
+  background-color: #7e22ce;
+  display: flex;
+  width: 50px;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  margin-right: 12px;
+  border-radius: 15px;
+}
+.project-icon {
+  color: #f0f0f0;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.project-title {
+  color: #7e22ce;
+  font-size: 15px;
+}
